@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Never Delay Action
+
+NEVER ask permission to execute a direct request. 
+
+CRITICAL: NEVER stop and ask if the user wants you to do what they just asked you to do. 
+
+While immediate action is the default, you may pause for clarification in rare edge cases where the request is ambiguous, contradictory, or risks data loss. However, do not use this as a loophole to seek constant validation.
