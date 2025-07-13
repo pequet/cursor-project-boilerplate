@@ -1,14 +1,11 @@
 ---
 type: guide
 domain: methods
-subject: General
+subject: Cursor Project Boilerplate
 status: active
 tags: notes-active
 summary: "Explains the boilerplate's context within the parent framework."
 ---
-
-> [!NOTE]
-> This document originates from a boilerplate template which may have evolved since this project was created. The latest version can be found in the [cursor-project-boilerplate repository](https://github.com/pequet/cursor-project-boilerplate/blob/main/docs/000-Framework-Context.md).
 
 # Framework Context
 

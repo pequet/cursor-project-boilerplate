@@ -1,7 +1,7 @@
 ---
 type: guide
 domain: methods
-subject: General
+subject: Cursor Project Boilerplate
 status: active
 tags: notes-active
 summary: "Explains the dual-context 'distraction-free' workflow for this boilerplate."
