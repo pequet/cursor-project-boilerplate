@@ -62,7 +62,7 @@ Models/
 
 ### Locating This Repository
 
-Putting it all together, this public repository (`cursor-project-boilerplate/`) is a `View` within the `Seed` `Project`.
+Putting it all together, this public repository (`cursor-project-boilerplate/`) is a `View` within the `Seed` Project.
 
 ```text
 Projects/
@@ -77,8 +77,9 @@ Projects/
     │   └── Meta/
     └── Views/
         └── Public Repositories/
-            ├── private/
-            └── cursor-project-boilerplate/  # <-- This Public Repo
+            └── Cursor Project Boilerplate/      # Grouping
+                ├── cursor-project-boilerplate/  # This Public Repo
+                └── private/                     # Assets tracked by the parent framework
 ```
 
 ## Development Principles
