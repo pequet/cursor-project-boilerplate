@@ -4,6 +4,17 @@ This checklist provides the steps to initialize a new project from this boilerpl
 
 ## 1. Project Setup & Attribution
 
+- [ ] **Finalize `.gitignore` and Clear Git Cache (Crucial First Step):**
+  - [ ] **Edit `.gitignore`**: Open the `.gitignore` file and uncomment the lines for directories you wish to exclude from the repository (e.g., `.cursor/`, `inbox/`, `archives/`, `memory-bank/`).
+  - [ ] **Untrack Cached Files**: Run the following command to remove these now-ignored directories from Git's tracking. This is essential and will not delete your local files.
+    ```bash
+    git rm -r --cached .cursor/ inbox/ archives/ memory-bank/
+    ```
+  - [ ] **Commit the Changes**: Commit the updated `.gitignore` and the removal of the cached files.
+    ```bash
+    git commit -m "CHORE: Finalize gitignore and untrack boilerplate files"
+    ```
+
 - [ ] **Global Search & Replace:**
   - [ ] Perform a global search-and-replace for the following boilerplate-specific placeholders across the entire project:
     - [ ] `cursor-project-boilerplate` (kebab-case name)
@@ -14,18 +25,6 @@ This checklist provides the steps to initialize a new project from this boilerpl
   - [ ] Rename the root directory from `cursor-project-boilerplate` to your new project name.
 - [ ] **Update `LICENSE`:**
   - [ ] Update the copyright year and holder name in the `LICENSE` file.
-- [ ] **Configure `.gitignore`:**
-  - [ ] Uncomment the following lines in your `.gitignore` file to exclude boilerplate-specific context from your new project's repository:
-    ```
-    # .cursor
-    # .cursor/
-    # inbox
-    # inbox/
-    # archives
-    # archives/
-    # memory-bank
-    # memory-bank/
-    ```
 
 ## 2. Configuration
 
