@@ -5,15 +5,19 @@ This checklist provides the steps to initialize a new project from this boilerpl
 ## 1. Project Setup & Attribution
 
 - [ ] **Finalize `.gitignore` and Clear Git Cache (Crucial First Step):**
-  - [ ] **Edit `.gitignore`**: Open the `.gitignore` file and uncomment the lines for directories you wish to exclude from the repository (e.g., `.cursor/`, `inbox/`, `archives/`, `memory-bank/`).
+  - [ ] **Edit `.gitignore`**: Open the `.gitignore` file and uncomment the lines for symlinks (e.g., `.cursor`) and directories you wish to exclude from the repository (e.g., `inbox/`, `archives/`, `memory-bank/`).
   - [ ] **Untrack Cached Files**: Run the following command to remove these now-ignored directories from Git's tracking. This is essential and will not delete your local files.
-    ```bash
-    git rm -r --cached .cursor/ inbox/ archives/ memory-bank/
-    ```
-  - [ ] **Commit the Changes**: Commit the updated `.gitignore` and the removal of the cached files.
-    ```bash
-    git commit -m "CHORE: Finalize gitignore and untrack boilerplate files"
-    ```
+
+```bash
+git rm -r --cached .cursor inbox/ archives/ memory-bank/
+```
+
+  - [ ] **Stage Changes**: Run `git add .` to stage the `.gitignore` changes and the file removals.
+  - [ ] Optional: **Commit the Changes**: Commit the updated `.gitignore` and the removal of the cached files.
+  
+```bash
+git commit -m "CHORE: Finalize gitignore and untrack boilerplate files"
+```
 
 - [ ] **Global Search & Replace:**
   - [ ] Perform a global search-and-replace for the following boilerplate-specific placeholders across the entire project:
