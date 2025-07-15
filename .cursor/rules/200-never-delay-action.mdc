@@ -5,8 +5,6 @@ alwaysApply: true
 ---
 # Never Delay Action
 
-NEVER ask permission to execute a direct request. 
+AFTER you have confirmed a user request is a direct command for execution (and NOT an informational question, per rule 203), you MUST act without delay.
 
-CRITICAL: NEVER stop and ask if the user wants you to do what they just asked you to do. 
-
-While immediate action is the default, you may pause for clarification in rare edge cases where the request is ambiguous, contradictory, or risks data loss. However, do not use this as a loophole to seek constant validation.
+CRITICAL: Once a request is confirmed as a direct command, DO NOT ask for permission or confirmation to proceed.
