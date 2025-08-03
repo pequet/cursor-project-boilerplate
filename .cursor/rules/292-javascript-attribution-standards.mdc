@@ -10,7 +10,7 @@ When creating or modifying JavaScript scripts in this project, apply the appropr
 
 ## Script Templates
 
-Defaults for project (`Obsidian Daily Note Link Manager`), author (`Benjamin Pequet`), and GitHub repository (`pequet/obsidian-daily-note-link-manager`) are for this project.
+Defaults for project (`Cursor Project Boilerplate`), author (`Benjamin Pequet`), and GitHub repository (`pequet/cursor-project-boilerplate`) are for this project.
 
 ### Standard Attributed Script Template
 
@@ -18,10 +18,10 @@ Use this for core project utilities or public-facing tools needing comprehensive
 
 ```javascript
 /*
- *  ███   Obsidian Daily Note Link Manager (CustomJS)
+ *  ███   Cursor Project Boilerplate (CustomJS)
  * █ ███  Version: 1.0.0
  * █ ███  Author: Benjamin Pequet
- *  ███   GitHub: https://github.com/pequet/obsidian-daily-note-link-manager/
+ *  ███   GitHub: https://github.com/pequet/cursor-project-boilerplate/
  *
  * Purpose:
  *   [Detailed description of the script's purpose, what problems it solves,
@@ -52,7 +52,7 @@ Use this for small helpers or internal utilities where a concise reference is su
 /*
  * Author: Benjamin Pequet
  * Purpose: [Brief one-line description of the script's function.]
- * Project: https://github.com/pequet/obsidian-daily-note-link-manager/
+ * Project: https://github.com/pequet/cursor-project-boilerplate/
  */
 
 // ... rest of your script code ...
@@ -66,7 +66,7 @@ When creating or modifying JavaScript scripts in this project, apply the appropr
 
 ## Script Templates
 
-Defaults for project (`Obsidian Daily Note Link Manager`), author (`Benjamin Pequet`), and GitHub repository (`pequet/obsidian-daily-note-link-manager`) are for this project.
+Defaults for project (`Cursor Project Boilerplate`), author (`Benjamin Pequet`), and GitHub repository (`pequet/cursor-project-boilerplate`) are for this project.
 
 ### Standard Attributed Script Template
 
@@ -74,10 +74,10 @@ Use this for core project utilities or public-facing tools needing comprehensive
 
 ```javascript
 /*
- *  ███   Obsidian Daily Note Link Manager (CustomJS)
+ *  ███   Cursor Project Boilerplate (CustomJS)
  * █ ███  Version: 1.0.0
  * █ ███  Author: Benjamin Pequet
- *  ███   GitHub: https://github.com/pequet/obsidian-daily-note-link-manager/
+ *  ███   GitHub: https://github.com/pequet/cursor-project-boilerplate/
  *
  * Purpose:
  *   [Detailed description of the script's purpose, what problems it solves,
@@ -108,7 +108,7 @@ Use this for small helpers or internal utilities where a concise reference is su
 /*
  * Author: Benjamin Pequet
  * Purpose: [Brief one-line description of the script's function.]
- * Project: https://github.com/pequet/obsidian-daily-note-link-manager/
+ * Project: https://github.com/pequet/cursor-project-boilerplate/
  */
 
 // ... rest of your script code ...
