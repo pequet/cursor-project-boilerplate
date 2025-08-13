@@ -30,7 +30,7 @@ This boilerplate is designed as a living foundation for your projects, intended 
 
 ## Getting Started
 
-To get started with this boilerplate, follow the steps in the **[New Project Checklist](NEW_PROJECT_CHECKLIST.md)**. This checklist will guide you through the process of customizing the boilerplate for your own project.
+To get started with this boilerplate, follow the steps in the **[New Project Checklist](Projects/Seed/Views/Public%20Repositories/Public%20Repository%20Templates/cursor-project-boilerplate/NEW_PROJECT_CHECKLIST.md)**. This checklist will guide you through the process of customizing the boilerplate for your own project.
 
 ### Requirements
 
