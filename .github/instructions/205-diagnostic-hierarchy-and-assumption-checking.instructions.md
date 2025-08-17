@@ -1,8 +1,8 @@
 ---
-description: Establishes progressive diagnostic sequence for troubleshooting issues
-globs: "*,**/*"
-alwaysApply: true
+description:  Establishes progressive diagnostic sequence for troubleshooting issues
+applyTo: "*,**/*"
 ---
+
 # 205: Diagnostic Hierarchy & Assumption Checking
 
 IF an expected item is not found OR a state change is not confirmed, FOLLOW this diagnostic sequence:

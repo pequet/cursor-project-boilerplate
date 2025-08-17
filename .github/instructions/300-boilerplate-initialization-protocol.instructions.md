@@ -1,8 +1,8 @@
 ---
-description: Ensures preservation and proper handling of boilerplate template files
-globs: "*,**/*"
-alwaysApply: true
+description:  Ensures preservation and proper handling of boilerplate template files
+applyTo: "*,**/*"
 ---
+
 # 300: Boilerplate Initialization Protocol
 
 ## Primary Directive

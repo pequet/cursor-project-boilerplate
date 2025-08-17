@@ -1,8 +1,8 @@
 ---
-description: Establishes standards for script headers, attribution, and branding
-globs: "**/*.sh,**/*.py,**/*.js,**/*.ts"
-alwaysApply: true
+description:  Establishes standards for script headers, attribution, and branding
+applyTo: "*,**/*"
 ---
+
 # 290: Script Attribution & Branding
 
 **Ensure consistent and professional attribution, documentation, and branding for all scripts.**

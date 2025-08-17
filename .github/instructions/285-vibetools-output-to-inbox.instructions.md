@@ -1,8 +1,8 @@
 ---
-description: Defines process for saving vibe-tools command outputs to inbox directory
-globs: "*,**/*"
-alwaysApply: true
+description:  Defines process for saving vibe-tools command outputs to inbox directory
+applyTo: "*,**/*"
 ---
+
 # 285: Vibe Tools Output to Inbox
 
 ### Purpose
@@ -13,8 +13,8 @@ When using `vibe-tools` commands that generate substantial textual output intend
 
 ### AI Protocol
 1.  **Identify Need for Saving:** Recognize when a `vibe-tools` command (e.g., `repo`, `plan`, `doc`) will produce output that should be saved.
-2.  **Fetch Current Date and Time:** Before constructing the filename, execute the terminal command `date +%Y-%m-%d_%H%M` to get the current timestamp, per rule `207-timestamp-accuracy-protocol.mdc`.
-3.  **Construct Filename:** Use the timestamp to assemble the filename according to the convention in rule `280-inbox-file-naming.mdc`.
+2.  **Fetch Current Date and Time:** Before constructing the filename, execute the terminal command `date +%Y-%m-%d_%H%M` to get the current timestamp, per rule `207-timestamp-accuracy-protocol.instructions.md`.
+3.  **Construct Filename:** Use the timestamp to assemble the filename according to the convention in rule `280-inbox-file-naming.instructions.md`.
     *   The description should be concise and indicate the tool used (e.g., `vibetools-plan-auth-feature`).
     *   Example: `inbox/[fetched_date_time]-vibetools-repo-analysis.md`
 4.  **Execute and Save:** Run the `vibe-tools` command, including the `--save-to` option with the fully constructed path and filename.

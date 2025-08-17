@@ -1,8 +1,8 @@
 ---
-description: Defines Memory Bank structure and usage for maintaining project context
-globs: "*,**/*"
-alwaysApply: true
+description:  Defines Memory Bank structure and usage for maintaining project context
+applyTo: "*,**/*"
 ---
+
 # 210: Memory Bank Protocol
 
 ## Purpose
@@ -11,7 +11,7 @@ The Memory Bank is a collection of documents designed to provide a comprehensive
 ## Memory Bank Structure
 ADHERE to the following structure for the `memory-bank/` directory. Each file serves a specific purpose in documenting the project.
 
--   **`.cursor/rules/210-memory-bank.mdc`**: This rule file itself, which governs the structure and evolution of the Memory Bank.
+-   **`.github/instructions/210-memory-bank.instructions.md`**: This rule file itself, which governs the structure and evolution of the Memory Bank.
 -   **`project-brief.md`**: Outlines the project's core purpose. It should clearly define the primary goals, functional and non-functional requirements, and the precise scope of work (including what is out of scope).
 -   **`product-context.md`**: Describes the "why" behind the project. It should articulate the problem being solved, the proposed solution, and the desired user experience (UX) goals.
 -   **`system-patterns.md`**: Documents the technical architecture. This includes a high-level overview of the architecture, key design decisions and their rationale, and a list of major design patterns being used.
@@ -28,7 +28,7 @@ To keep the Memory Bank effective, it must be kept up-to-date.
 -   **`development-log.md`**, **`development-status.md`**, and **`project-journey.md`** should be updated after any significant event or as milestones are completed.
 -   Other documents should be updated as the project evolves (e.g., a new technology is introduced, or the scope changes).
 -   The user command `update memory bank` should trigger a review and update of all relevant files.
--   This rule file (**`210-memory-bank.mdc`**) must also be edited as needed when the structure and the rules evolve from the initial described state.
+-   This rule file (**`210-memory-bank.instructions.md`**) must also be edited as needed when the structure and the rules evolve from the initial described state.
 
 ## Frontmatter Standard
 APPLY the following frontmatter structure to all core Memory Bank files for consistency and machine-readability.
@@ -44,4 +44,4 @@ summary: A concise, one-sentence summary of this file's specific role.
 ```
 
 ## Timestamping
-When adding timestamped entries (e.g., in `development-log.md`), retrieve the current date and time using a system command as defined in `207-timestamp-accuracy-protocol.mdc` to ensure accuracy.
+When adding timestamped entries (e.g., in `development-log.md`), retrieve the current date and time using a system command as defined in `207-timestamp-accuracy-protocol.instructions.md` to ensure accuracy.

@@ -1,8 +1,8 @@
 ---
-description: Establishes system for tracking and documenting project patterns and user preferences
-globs: "*,**/*"
-alwaysApply: true
+description:  Establishes system for tracking and documenting project patterns and user preferences
+applyTo: "*,**/*"
 ---
+
 # 230: Framework Intelligence Protocol
 
 ### Primary Directive

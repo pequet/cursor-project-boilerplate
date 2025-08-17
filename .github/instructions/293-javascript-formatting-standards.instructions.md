@@ -1,8 +1,8 @@
 ---
-description: Defines consistent structure and formatting for JavaScript files
-globs: *.js,**/*.js
-alwaysApply: false
+description:  Defines consistent structure and formatting for JavaScript files
+applyTo: "*.js,**/*.js"
 ---
+
 # 293: JavaScript Formatting Standards
 
 **Ensure consistent formatting and organization for all JavaScript scripts.**
@@ -13,7 +13,7 @@ ALL JavaScript scripts SHOULD follow this organizational structure where applica
 
 ```javascript
 /*
- * Attribution header (per 292-javascript-attribution-standards.mdc)
+ * Attribution header (per 292-javascript-attribution-standards.instructions.md)
  */
 
 // --- Constants & Global Variables ---

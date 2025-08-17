@@ -1,8 +1,8 @@
 ---
-description: Prohibits fabrication of information and mandates accurate reporting
-globs: "*,**/*"
-alwaysApply: true
+description:  Prohibits fabrication of information and mandates accurate reporting
+applyTo: "*,**/*"
 ---
+
 # 202: Critical Truthfulness Protocol
 
 ### Primary Directive

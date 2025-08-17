@@ -1,13 +1,13 @@
 ---
-description: Defines standards for writing clear and actionable rule files
-globs: .cursor/rules/**/*.mdc
-alwaysApply: false
+description:  Defines standards for writing clear and actionable rule files
+applyTo: ".github/instructions/**/*.instructions.md"
 ---
+
 # 001: Effective Rule Writing Directives
 
-To ensure AI instructions are clear, consistent, and actionable, all `.cursor/rules`files should be written following the directives below. Adhering to these standards helps the AI interpret and execute tasks reliably and efficiently.
+To ensure AI instructions are clear, consistent, and actionable, all `.github/instructions`files should be written following the directives below. Adhering to these standards helps the AI interpret and execute tasks reliably and efficiently.
 
-**When writing or modifying `.cursor/rules`files, please adhere to the following principles:**
+**When writing or modifying `.github/instructions`files, please adhere to the following principles:**
 
 1.  **Write Rules as Direct Commands:** Address the AI directly. Instruct the AI what it MUST or SHOULD do. Use imperative verbs (e.g., "ENSURE", "USE", "VERIFY", "APPLY").
     *   **Bad:** "This rule is about script headers."

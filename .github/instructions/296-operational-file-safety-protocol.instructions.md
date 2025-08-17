@@ -1,8 +1,8 @@
 ---
-description: Prohibits using delete commands in scripts and mandates safe file renaming
-globs: "*,**/*"
-alwaysApply: true
+description:  Prohibits using delete commands in scripts and mandates safe file renaming
+applyTo: "*,**/*"
 ---
+
 
 # 296: Operational File Safety Protocol (Automated Workflow)
 

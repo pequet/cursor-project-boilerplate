@@ -30,8 +30,10 @@ VENV/
 # IDE specific (including symlinks)
 # Should be commented out i.e. included in the boilerplate but **usually not** in the project
 # .cursor
+# .github
 # .vscode
 # .cursor/
+# .github/
 # .vscode/
 
 # Build artifacts

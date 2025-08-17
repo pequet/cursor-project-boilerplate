@@ -1,8 +1,8 @@
 ---
-description: Ensures code blocks are properly formatted for easy copying and execution
-globs: "*,**/*"
-alwaysApply: true
+description:  Ensures code blocks are properly formatted for easy copying and execution
+applyTo: "*,**/*"
 ---
+
 # 255: Codeblock Formatting for Copy-Pastable Content
 
 ### Purpose

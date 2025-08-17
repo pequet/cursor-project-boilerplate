@@ -1,8 +1,8 @@
 ---
-description: Establishes writing standards for clarity, efficiency, actionability, and accountability
-globs: "*,**/*"
-alwaysApply: true
+description:  Establishes writing standards for clarity, efficiency, actionability, and accountability
+applyTo: "*,**/*"
 ---
+
 # 250: Writing Style Standard
 
 ### Directive

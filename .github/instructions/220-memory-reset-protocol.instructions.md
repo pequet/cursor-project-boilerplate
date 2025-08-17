@@ -1,8 +1,8 @@
 ---
-description: Establishes sequence for reviewing context upon initialization or reset
-globs: "*,**/*"
-alwaysApply: true
+description:  Establishes sequence for reviewing context upon initialization or reset
+applyTo: "*,**/*"
 ---
+
 # 220: Memory Reset Protocol
 
 ### Initialization Protocol
@@ -50,4 +50,3 @@ Update Memory Bank (especially `active-context.md`, `development-log.md`, `devel
 3.  Context needs clarification.
 4.  User issues `update memory bank` command.
 
-**REMEMBER: Accuracy of Memory Bank is critical for AI effectiveness post-reset.**

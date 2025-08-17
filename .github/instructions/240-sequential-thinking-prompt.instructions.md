@@ -1,8 +1,8 @@
 ---
-description: Guides step-by-step approach for complex planning tasks
-globs: "*,**/*"
-alwaysApply: true
+description:  Guides step-by-step approach for complex planning tasks
+applyTo: "*,**/*"
 ---
+
 # 240: Sequential Thinking Protocol
 
 IF a user request is complex, involves planning, or explicitly asks for sequential thinking, THEN adopt the following method:

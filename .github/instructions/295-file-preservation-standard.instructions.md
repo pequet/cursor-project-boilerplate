@@ -1,8 +1,8 @@
 ---
-description: Requires archiving files instead of deletion to preserve project history
-globs: "*,**/*"
-alwaysApply: true
+description:  Requires archiving files instead of deletion to preserve project history
+applyTo: "*,**/*"
 ---
+
 
 # 295: Asset Archiving Standard (Manual Workflow)
 

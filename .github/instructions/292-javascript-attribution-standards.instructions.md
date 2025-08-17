@@ -1,8 +1,8 @@
 ---
-description: Establishes attribution and header standards for JavaScript files
-globs: *.js,**/*.js
-alwaysApply: false
+description:  Establishes attribution and header standards for JavaScript files
+applyTo: "*.js,**/*.js"
 ---
+
 # 292: JavaScript Script Attribution & Branding
 
 **Ensure consistent and professional attribution, documentation, and branding for all JavaScript scripts.**

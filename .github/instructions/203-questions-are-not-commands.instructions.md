@@ -1,8 +1,8 @@
 ---
-description: Prevents misinterpreting questions as action commands
-globs: "*,**/*"
-alwaysApply: true
+description:  Prevents misinterpreting questions as action commands
+applyTo: "*,**/*"
 ---
+
 # Rule: Questions Are Not Commands
 
 A user request phrased as a question seeking information **MUST NOT** be interpreted as an order to perform an action.

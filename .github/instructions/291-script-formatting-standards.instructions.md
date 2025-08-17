@@ -1,8 +1,8 @@
 ---
-description: Defines structure and formatting standards for shell scripts
-globs: **/*.sh,*.sh
-alwaysApply: false
+description:  Defines structure and formatting standards for shell scripts
+applyTo: "**/*.sh,*.sh"
 ---
+
 # 291: Script Formatting Standards
 
 **Ensure consistent formatting and organization for all shell scripts.**
@@ -19,7 +19,7 @@ set -e
 set -u
 set -o pipefail
 
-# Attribution header (per 290-script-attribution-standards.mdc)
+# Attribution header (per 290-script-attribution-standards.instructions.md)
 
 # --- Global Variables ---
 # All script-level variables defined here
@@ -82,7 +82,7 @@ main "$@"
     - Call a separate `log_message()` function to write a more detailed, timestamped entry to a persistent log file.
 - **Progress only**: Show the current step, not "about to do" and "completed" pairs. For example, just "Checking dependencies" is sufficient.
 - **Clean errors**: Format errors clearly (e.g., `ERROR: message`) and direct them to `stderr`.
-- **Script attribution**: Use the standard header template from `290-script-attribution-standards.mdc`, not `echo` statements, for branding.
+- **Script attribution**: Use the standard header template from `290-script-attribution-standards.instructions.md`, not `echo` statements, for branding.
 
 ## Scripting Best Practices
 - **Strict Initialization Order**: The `main` function must load dependencies and validate the environment in the correct order before executing core logic:

@@ -1,8 +1,8 @@
 ---
-description: Ensures user-provided facts are treated as ground truth without re-verification
-globs: "*,**/*"
-alwaysApply: true
+description:  Ensures user-provided facts are treated as ground truth without re-verification
+applyTo: "*,**/*"
 ---
+
 # 206: Direct Integration of Verified Facts
 
 IF a user provides a verified fact (e.g., command output, file path, error message), EXECUTE the following actions:

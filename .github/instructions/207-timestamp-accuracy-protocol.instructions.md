@@ -1,8 +1,8 @@
 ---
-description: Requires system commands for generating accurate timestamps
-globs: "*,**/*"
-alwaysApply: true
+description:  Requires system commands for generating accurate timestamps
+applyTo: "*,**/*"
 ---
+
 # 207: Timestamp Accuracy Protocol
 
 FOR any timestamping requirement (e.g., logs, filenames, documentation updates), ALWAYS use a system command to fetch the current date/time. DO NOT use placeholders or manual entries.

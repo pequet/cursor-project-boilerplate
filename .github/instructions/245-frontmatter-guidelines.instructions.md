@@ -1,8 +1,8 @@
 ---
-Defines standards for using YAML frontmatter in project documents
-globs: *.md,**/*.md
-alwaysApply: false
+description: 
+applyTo: "*.md,**/*.md"
 ---
+
 # 245: General Frontmatter Guidelines
 
 MAINTAIN a consistent approach to YAML frontmatter in Markdown files.
@@ -34,7 +34,7 @@ tags: [notes-active|notes-archived]
 *   **`domain`**: (String) ASSIGN one of the following values describing the broad category or area the content belongs to:
     *   `system-state`: USE for files describing the project's operational state (e.g., memory bank files).
     *   `inbox`: USE for files in the `inbox/` directory.
-    *   `rules`: USE for `.cursor/rules/` files.
+    *   `rules`: USE for `.github/instructions/` files.
     *   values such as `concepts`, `methods`, `patterns` may be used if the project adopts a broader knowledge management framework consistent with user practices
 *   **`subject`**: (String) ASSIGN the primary thematic focus. This MUST be the specific project name (e.g., "Cursor Project Boilerplate") or "General" if not project-specific.
 *   **`status`**: (String) ASSIGN the current state of the document. Examples include:

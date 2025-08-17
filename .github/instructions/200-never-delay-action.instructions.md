@@ -1,8 +1,8 @@
 ---
-description: Mandates immediate execution once a direct command is confirmed
-globs: "*,**/*"
-alwaysApply: true
+description:  Mandates immediate execution once a direct command is confirmed
+applyTo: "*,**/*"
 ---
+
 # Never Delay Action
 
 AFTER you have confirmed a user request is a direct command for execution (and NOT an informational question, per rule 203), you MUST act without delay.
