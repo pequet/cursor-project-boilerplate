@@ -5,13 +5,6 @@ set -e
 set -u
 set -o pipefail
 
-# --- Utility Scripts ---
-# Source utility functions
-# shellcheck source=scripts/utils/logging_utils.sh
-source "$(dirname "$0")/utils/logging_utils.sh"
-# shellcheck source=scripts/utils/messaging_utils.sh
-source "$(dirname "$0")/utils/messaging_utils.sh"
-
 # This script is designed to be a simple, illustrative example of a script
 # that can be used as a starting point for a more complex script.
 #
@@ -55,6 +48,22 @@ source "$(dirname "$0")/utils/messaging_utils.sh"
 #   - Buy Me a Coffee: https://buymeacoffee.com/pequet
 #   - GitHub Sponsors: https://github.com/sponsors/pequet
 
+# --- Global Variables ---
+# Resolve the true script directory, following symlinks
+# This is a necessary measure to get the correct script directory when the script is symlinked
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+SCRIPT_DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+
+# --- Utility Scripts ---
+# Source utility functions
+source "$SCRIPT_DIR/utils/logging_utils.sh"
+source "$SCRIPT_DIR/utils/messaging_utils.sh"
+
 # --- Configuration ---
 # Set default timezone if not provided
 DEFAULT_TIMEZONE="UTC"
@@ -62,7 +71,7 @@ DEFAULT_TIMEZONE="UTC"
 # --- Logging Configuration ---
 # The script name can be used to generate a log file name
 SCRIPT_NAME=$(basename "$0" .sh)
-LOG_FILE_PATH="scripts/logs/${SCRIPT_NAME}.log"
+LOG_FILE_PATH="$SCRIPT_DIR/logs/${SCRIPT_NAME}.log"
 
 # --- Helper Functions ---
 show_help() {
