@@ -28,13 +28,24 @@ ENV/
 VENV/
 
 # IDE specific (including symlinks)
-# Should be commented out i.e. included in the boilerplate but **usually not** in the project
-# .cursor
-# .github
-# .vscode
-# .cursor/
-# .github/
-# .vscode/
+# The `master-rules` directory should be commented out i.e. included in the boilerplate but **usually not** in the project
+# All the others should be ignored.
+# master-rules
+# master-rules/
+AGENTS.md
+CLAUDE.md
+.claude
+.codex
+.cursor
+.gemini
+.github
+.vscode
+.codex/
+.claude/
+.cursor/
+.gemini/
+.github/
+.vscode/
 
 # Build artifacts
 dist/
@@ -73,6 +84,7 @@ logs/
 .specstory
 .specstory/
 
-# Memory Bank 
+# Memory Bank (including symlink)
 # Should be commented out i.e. included in the boilerplate but **usually not** in the project
+# memory-bank
 # memory-bank/

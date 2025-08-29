@@ -30,14 +30,14 @@ This boilerplate is designed as a living foundation for your projects, intended 
 
 ## Getting Started
 
-To get started with this boilerplate, follow the steps in the **[New Project Checklist](Projects/Seed/Views/Public%20Repositories/Public%20Repository%20Templates/cursor-project-boilerplate/NEW_PROJECT_CHECKLIST.md)**. This checklist will guide you through the process of customizing the boilerplate for your own project.
+To get started with this boilerplate, follow the steps in the **[New Project Checklist](NEW_PROJECT_CHECKLIST.md)**. This checklist will guide you through the process of customizing the boilerplate for your own project.
 
 ### Requirements
 
 This boilerplate is heavily optimized for an AI-assisted development workflow. 
 
 *   **[Cursor IDE](https://cursor.com):** The primary development environment this boilerplate is designed for, but it could be adapted for other IDEs such as Windsurf or Copilot.
-*   **[vibe-tools](https://github.com/eastlondoner/vibe-tools):** (fka `cursor-tools`) It's referenced in `.cursor/rules/vibe-tools.mdc` and is crucial for many automated tasks. It must be globally installed (`npm install -g vibe-tools`) with API keys configured in `~/.vibe-tools/.env`.
+*   **[vibe-tools](https://github.com/eastlondoner/vibe-tools):** (fka `cursor-tools`) Used across rules and scripts and is crucial for many automated tasks. It must be globally installed (`npm install -g vibe-tools`) with API keys configured in `~/.vibe-tools/.env`.
 *   **[SpecStory Extension](https://github.com/specstoryai/getspecstory):** This extension for Cursor/VSCode helps with long-term memory. It automatically saves AI interactions, which populates the `.specstory/` directory and helps generate `derived-cursor-rules.mdc`, allowing the AI to learn from past interactions. Review the history periodically for insights on the learning process that should become rulesets.
 *   **Memory Bank:** The project's core long-term memory system resides in the `memory-bank/` directory, providing persistent context to the AI to ensure continuity across sessions. This system is governed by rule `210-memory-bank.mdc` and is an adaptation of a community-driven pattern for AI memory. Within this system, the [`project-journey.md`](memory-bank/project-journey.md) file acts as a `motivation engine`, helping to mark progress against clear goalposts and ensure the project is always moving forward in a positive direction.
 *   **Boilerplate Preservation**: To prevent accidental deletion of key configuration files and context, this boilerplate is governed by rule `300-boilerplate-initialization-protocol.mdc`. This rule instructs the AI to preserve all boilerplate files unless explicitly told otherwise.
@@ -66,6 +66,18 @@ This is a template repository. **Do not work in it directly.** Follow these two 
 1.  Open the new project folder in your IDE.
 2.  Use the global search-and-replace feature to update the placeholder names.
 3.  Follow the `NEW_PROJECT_CHECKLIST.md` to complete the setup.
+
+### Master Rules & IDE Synchronization
+
+This boilerplate now includes a `master-rules/` directory containing the archetypal, source-of-truth AI rules/instructions. Use your IDE Rules Synchronizer script to generate assistant-specific outputs on demand (e.g., `.cursor/rules/`, `.github/instructions/`, `CLAUDE.md`, `GEMINI.md`). These generated files are not included by default in the boilerplate.
+
+Example usage:
+
+```bash
+./sync-ide-rules.sh /path/to/your/project
+# Optional: limit to specific targets
+./sync-ide-rules.sh /path/to/your/project --to cursor,github
+```
 
 ## Script Usage Example
 
