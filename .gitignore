@@ -36,6 +36,7 @@ AGENTS.md
 ARCHITECTURE.md
 RULES.md
 CLAUDE.md
+codex.md
 GEMINI.md
 .claude
 .codex
@@ -86,6 +87,7 @@ logs/
 # Development context (including symlinks)
 .specstory
 .specstory/
+vibe-tools.*
 
 # Memory Bank (including symlink)
 # Should be commented out i.e. included in the boilerplate but **usually not** in the project
