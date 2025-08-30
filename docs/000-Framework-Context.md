@@ -66,20 +66,21 @@ Putting it all together, this public repository (`cursor-project-boilerplate/`) 
 
 ```text
 Projects/
-└── Seed/
-    ├── Controllers/
-    ├── Models/
-    │   ├── 0. Inbox/
-    │   ├── 1. Projects/
-    │   ├── 2. Knowledge/
-    │   ├── 3. Resources/
-    │   ├── 4. Archives/
-    │   └── Meta/
-    └── Views/
-        └── Public Repositories/
-            └── Public Repository Templates/     # Grouping
-                ├── cursor-project-boilerplate/  # This Public Repo
-                └── private/                     # Assets tracked by the parent framework
+└── Seed/                                            # Grouping
+    ├── private/                                     # Assets tracked by the parent framework
+    └── project-seed/                                # Parent Repo
+        ├── Controllers/
+        ├── Models/
+        │   ├── 0. Inbox/
+        │   ├── 1. Projects/
+        │   ├── 2. Knowledge/
+        │   ├── 3. Resources/
+        │   └── 4. Archives/
+        └── Views/
+            └── Public Repositories/
+                └── Public Repository Templates/     # Grouping
+                    ├── cursor-project-boilerplate/  # This Public Repo
+                    └── private/                     # Assets tracked by the parent framework
 ```
 
 ### Level 4: Split Repository Pattern
