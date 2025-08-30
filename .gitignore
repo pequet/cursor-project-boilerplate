@@ -33,7 +33,10 @@ VENV/
 # master-rules
 # master-rules/
 AGENTS.md
+ARCHITECTURE.md
+RULES.md
 CLAUDE.md
+GEMINI.md
 .claude
 .codex
 .cursor

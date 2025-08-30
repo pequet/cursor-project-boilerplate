@@ -69,7 +69,7 @@ This is a template repository. **Do not work in it directly.** Follow these two 
 
 ### Master Rules & IDE Synchronization
 
-This boilerplate now includes a `master-rules/` directory containing the archetypal, source-of-truth AI rules/instructions. Use your IDE Rules Synchronizer script to generate assistant-specific outputs on demand (e.g., `.cursor/rules/`, `.github/instructions/`, `CLAUDE.md`, `GEMINI.md`). These generated files are not included by default in the boilerplate.
+This boilerplate now includes a `master-rules/` directory containing the archetypal, source-of-truth AI rules/instructions. Use your [IDE Rules Synchronizer](https://github.com/pequet/ide-rules-synchronizer) script to generate assistant-specific outputs on demand (e.g., `.cursor/rules/`, `.github/instructions/`, `CLAUDE.md`, `GEMINI.md`, `AGENTS.md`, `ARCHITECTURE.md`, `RULES.md`). These generated files are not included by default in the boilerplate.
 
 Example usage:
 
