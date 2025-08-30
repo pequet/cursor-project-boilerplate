@@ -59,3 +59,7 @@ This index provides a comprehensive overview of the boilerplate rule set, organi
 - `2401-session-initialization.md`: Standardize session start procedure by reviewing the development status.
 - `2410-development-log-format.md`: Enforce Development Log standards.
 - `2420-development-status-format.md`: Enforce Development Status standards.
+
+## 9000 Series: Meta & Rule Management
+- `9000-effective-rule-writing.md`: Enforce standards for writing new master rules.
+- `9010-rule-tiering-and-extension-policy.md`: Defines the policy for rule tiering and context-specific extensions.
