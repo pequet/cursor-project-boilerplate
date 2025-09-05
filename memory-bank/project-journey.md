@@ -50,7 +50,7 @@ Adapt the milestones below to fit your project and keep updating them as the pro
     *   **Example: Project A** Create a test script to validate the boilerplate setup.
     *   **Example: Project B** Create a standardized manual testing plan for all library functions and indicator outputs.
 - [ ] M12: **[Perform Initial Integration Testing]**
-    *   **Example: Project A** Test the boilerplate by creating a sample "hello-world" project from it.
+    *   **Example: Project A** Test the boilerplate by creating a seed "hello-world" project from it.
     *   **Example: Project B** Test the first three indicators together on a single chart to check for conflicts or performance issues.
 - [ ] M13: **[Document Core Systems]**
     *   **Example: Project A** Create detailed documentation for the memory bank files and their purpose.
@@ -80,7 +80,7 @@ List the current high-priority tasks or challenges the project is facing.
 * [Enter active quests and challenges here]
 
 *   **Example: Project A**
-    *   [ ] Q1: Test the boilerplate by creating a sample "hello-world" project from it to ensure it works as expected.
+    *   [ ] Q1: Test the boilerplate by creating a seed "hello-world" project from it to ensure it works as expected.
     *   [ ] Q2: Get feedback from another developer on the clarity of the documentation.
 *   **Example: Project B**
     *   [ ] Q1: Design a color palette that is both visually appealing and clear for color-blind users.
