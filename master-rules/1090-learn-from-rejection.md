@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: Do not propose solutions that have been previously rejected for violating critical rules. Maintain a memory of user corrections."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Learn from Rejection Protocol
 

@@ -1,7 +1,6 @@
 ---
 description: "Communication standards for direct, factual writing with examples"
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Writing Style
 
@@ -37,3 +36,4 @@ All writing must be:
   - **NO**: "This approach seems faster."
 
 - **Banned Words**: NEVER use the words `transcend` or `holistic`, which are new-age jargon and not useful in technical writing.
+- **NO EM-DASHES**: These are unacceptable.

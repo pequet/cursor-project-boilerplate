@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: Proactively identify and recommend consolidation for redundant information, code, or rules to maintain a single source of truth."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Redundancy Avoidance Protocol
 

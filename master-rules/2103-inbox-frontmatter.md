@@ -1,6 +1,6 @@
 ---
 description: "ENFORCE frontmatter standards for all content within 'Inbox' directories."
-globs: ["**/0. Inbox/**", "**/inbox/**"]
+globs: **/*Inbox/*.md,**/inbox/*.md
 alwaysApply: false
 ---
 # Inbox Frontmatter

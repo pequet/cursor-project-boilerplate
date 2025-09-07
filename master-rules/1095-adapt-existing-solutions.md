@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: Always adapt existing working solutions instead of building from scratch. Prioritize proven patterns over reinvention."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Adapt Existing Solutions Protocol
 

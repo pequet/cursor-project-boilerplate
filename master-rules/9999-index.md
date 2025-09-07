@@ -1,6 +1,6 @@
 ---
 description: "Master index of all boilerplate rules, organized by function."
-globs: ["*", "**/*"]
+globs: *,**/*
 alwaysApply: false
 ---
 # Boilerplate Master Rules Index

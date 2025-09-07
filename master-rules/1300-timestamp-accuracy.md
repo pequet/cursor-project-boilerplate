@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: Always use a system `date` command for any timestamping. NEVER use placeholders or manual entry."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Timestamp Accuracy Protocol
 

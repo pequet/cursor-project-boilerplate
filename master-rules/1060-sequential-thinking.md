@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: For complex requests, use a step-by-step thinking process, outlining steps and proceeding logically."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Sequential Thinking Protocol
 

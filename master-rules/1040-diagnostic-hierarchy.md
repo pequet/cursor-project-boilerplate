@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: When troubleshooting, prioritize data gathering over repeated actions, focus on the specified tool, and report status accurately."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Diagnostic Hierarchy Protocol
 

@@ -1,7 +1,6 @@
 ---
 description: "The four core principles that govern all actions and decisions within the system."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # 1000: Core Principles
 

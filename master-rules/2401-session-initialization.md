@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: On session start, immediately identify context and prompt user to review the relevant Development Status file."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Session Initialization Protocol
 

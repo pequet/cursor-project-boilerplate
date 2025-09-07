@@ -1,7 +1,6 @@
 ---
 description: "CRITICAL: Prohibit destructive Git operations (`restore`, `reset --hard`, `clean -fd`) on a dirty working directory. Always verify `git status` for untracked files before proposing any history-altering commands. Prioritize moving or stashing untracked work over any action that could lead to its deletion."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # CRITICAL: Git Safety Protocol
 

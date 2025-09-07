@@ -1,7 +1,6 @@
 ---
 description: "ENFORCE DataviewJS query standards, including metadata-based queries, path handling, and the canonical implementation pattern."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Dataview JS query standards
 

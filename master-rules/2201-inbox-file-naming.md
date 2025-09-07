@@ -1,6 +1,6 @@
 ---
 description: "COMMAND: Use `YYYY-MM-DD_HHMM-description.md` for all new Inbox files and apply the standard `type: capture` frontmatter."
-globs: ["**/inbox/**", "**/0. Inbox/**"]
+globs: **/*Inbox/*.md,**/inbox/*.md
 alwaysApply: false
 ---
 # Inbox File Naming Protocol

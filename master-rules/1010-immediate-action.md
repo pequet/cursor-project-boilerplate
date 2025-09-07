@@ -1,7 +1,6 @@
 ---
 description: "COMMAND: Execute direct requests immediately without asking for permission or confirmation."
-globs: ["*", "**/*"]
-alwaysApply: true
+alwaysApply: false
 ---
 # Immediate Action Protocol
 
